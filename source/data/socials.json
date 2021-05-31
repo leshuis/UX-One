@@ -1,0 +1,22 @@
+{
+  "social": [
+    {
+      "link": {
+        "text": "Twitter",
+        "url": "#t"
+      }
+    },
+    {
+      "link": {
+        "text": "Facebook",
+        "url": "#f"
+      }
+    },
+    {
+      "link": {
+        "text": "Google",
+        "url": "#g"
+      }
+    }
+  ]
+}

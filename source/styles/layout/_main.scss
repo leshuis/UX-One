@@ -1,0 +1,28 @@
+@use '../vendors/breakpoints' as bq;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e5e5f7;
+
+  > main {
+    flex: 100 1 auto;
+    padding: 10px 20px;
+    opacity: 0.8;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(
+      45deg,
+      var(--color-three) 0,
+      var(--color-three) 1px,
+      var(--color-two) 0,
+      var(--color-two) 50%
+    );
+    
+  }
+}
+
+main {
+  background-color: var(--color-four);
+  background-size: 600% 600%;
+}

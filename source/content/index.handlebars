@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{{> templates/document-head}}
+
+
+<body class="page_home">
+  {{>templates/ancientbrowserwarning}}
+
+  <div class="wrapper">
+    {{>templates/header}}
+    <main>
+
+      <div class="grid">
+        <section class="card card__social grid-start-2 grid-span-2">
+          {{#list socials 'social links' }}{{/list}}
+        </section>
+
+        <section class="card card__courses grid-start-4 grid-span-2">
+          {{#list courses 'courses' }}{{/list}}
+        </section>
+
+        <section class="card card__education grid-start-6 grid-span-2">
+          {{#list educations 'education'}}{{/list}}
+        </section>
+
+        <section class="card card__jobs grid-start-8 grid-span-2">
+          {{#list jobexperiences 'experience'}}{{/list}}
+        </section>
+
+        <section class="card card__skills grid-start-10 grid-span-2">
+          {{#list skills 'skills'}}{{/list}}
+        </section>
+
+<br clear="all">
+{{!-- 
+        <a href="test.html">Form page</a>
+        <a href="picture.html">Picture page</a> --}}
+
+      </div>
+
+    </main>
+    {{> templates/footer}}
+  </div>
+</body>
+
+</html>
